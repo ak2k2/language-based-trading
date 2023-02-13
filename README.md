@@ -1,25 +1,25 @@
 # Trading Signal Visualization
 [HTML demo of summoning an AVWAP indicator](https://htmlpreview.github.io/?https://github.com/ak2k2/ChartCraft/blob/main/AAVWAP.html)
 
-This program allows users to visualize trading signals using Plotly charts. It uses yfinance to download historical data, OpenAI's GPT-3 NLP to summon indicators, and Plotly to visualize the data.
+Visualize trading signals using Plotly charts. Use yfinance to download historical data, OpenAI's GPT-3 NLP to summon indicators, and Plotly to visualize the data.
 
 ## Prerequisites
 
-In order to run this program, you must have the following installed:
-
 - Python 3
 - yfinance
-- OpenAI's GPT-3 NLP
+- OpenAI's GPT-3 NLP (API access)
 - Plotly
 
-## Usage
 
-To use this program, simply run it on the command line. You will be prompted to enter a ticker supported by yfinance. The program will then download historical data, summon indicators, and visualize the data with Plotly charts.
 
-## Example
+## COLOR!
 
-Let's say we want to create a trading signal for Apple (AAPL). We run the program and enter AAPL as our ticker. The program will then download the historical data, summon indicators, and visualize the data with Plotly charts.
+- ![#ff0000](https://placehold.it/12/ff0000?text=+) red!
+- ![#9900c5](https://placehold.it/15/9900c5?text=+) purple!
+- ![#157500](https://placehold.it/20/157500?text=+) green!
 
-We can then add our own indicators, such as MACD, RSI, and Moving Average, to create a trading signal. We can also add a "Long Signal" column which will be 1 when the conditions we specify are met, and 0 otherwise.
+![](https://placehold.it/400x90/ff0000/000000?text=IMPORTANT!)
 
-Once we have added all the indicators and a long signal column, the program will generate a Plotly chart showing the historical data and the indicators we added. This chart can be used to analyze the trading signal and visualize precise historical returns.
+![](https://placehold.it/400x90/ff6600/000?text=WARNING!)
+
+![](https://placehold.it/350x90/009955/fff?text=SUCCESS!)
